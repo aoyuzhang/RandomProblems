@@ -10,7 +10,7 @@ public class IsUnique
 	{
 		Scanner scanner= new Scanner(System.in);
 		String input= scanner.nextLine();
-		if(input.length()>255)
+		if(input.length()>128)
 		{
 			System.out.println("The string does not have all unique characters as its length is greater than the number of characters");
 			System.out.println("Thank you!");
